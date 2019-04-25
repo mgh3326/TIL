@@ -21,4 +21,4 @@
     - value | add: 2
     - name | lower
     - value | add: 2 | divisibleby:3
-    - {% for location in locations|dictsort:'name' %} name으로 정렬해줌
+    - '{% for location in locations|dictsort:'name' %}' name으로 정렬해줌
